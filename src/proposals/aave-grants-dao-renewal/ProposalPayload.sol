@@ -18,9 +18,9 @@ contract ProposalPayload {
     address public constant aDAI = 0x028171bCA77440897B824Ca71D1c56caC55b68A3;
     address public constant aUSDT = 0x71fc860F7D3A592A4a98740e39dB31d25db65ae8;
 
-    uint256 public constant AMOUNT_DAI = 451_916_320000000000000000;
-    uint256 public constant AMOUNT_ADAI = 1_172_938_790000000000000000;
-    uint256 public constant AMOUNT_AUSDT = 812_944_900000;
+    uint256 public constant AMOUNT_DAI = 451_916_320000000000000000; // $451,916.32
+    uint256 public constant AMOUNT_ADAI = 1_172_938_790000000000000000; // $1,172,938.79
+    uint256 public constant AMOUNT_AUSDT = 812_944_900000; // $812,9422.90
 
     // Avg. AAVE price 1/8/2023 - 1/12/2023: 60.56
     // $812,500 / 60.56 = 13,416.446499339500000000 AAVE
