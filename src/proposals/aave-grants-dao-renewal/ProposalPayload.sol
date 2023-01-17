@@ -20,11 +20,11 @@ contract ProposalPayload {
 
     uint256 public constant AMOUNT_DAI = 451_916_320000000000000000; // $451,916.32
     uint256 public constant AMOUNT_ADAI = 1_172_938_790000000000000000; // $1,172,938.79
-    uint256 public constant AMOUNT_AUSDT = 812_944_900000; // $812,9422.90
+    uint256 public constant AMOUNT_AUSDT = 812_944_900000; // $812,944.90
 
-    // Avg. AAVE price 1/8/2023 - 1/12/2023: 60.56
-    // $812,500 / 60.56 = 13,416.446499339500000000 AAVE
-    uint256 public constant AMOUNT_AAVE = 13416446499339500000000;
+    // Avg. AAVE price 12/16/2022 - 1/17/2023: 60.89
+    // $812,500 / 60.89 = 13,343.734603383100000000 AAVE
+    uint256 public constant AMOUNT_AAVE = 13343734603383100000000;
 
     /// @notice The AAVE governance executor calls this function to implement the proposal.
     function execute() external {
