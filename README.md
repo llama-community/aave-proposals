@@ -1,6 +1,6 @@
-# AAVE Governance Forge Template
+# AAVE Proposals Template
 
-A template for creating AAVE governance Proposal payload contracts.
+Use this template to create AAVE proposals.
 
 ## Installation
 

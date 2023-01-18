@@ -21,7 +21,7 @@ deploy-proposal :; forge script script/DeployMainnetProposal.s.sol:DeployProposa
 
 # Clean & lint
 clean    :; forge clean
-lint     :; npx prettier --write */*.sol
+lint     :; npx prettier --write script/*.sol src/proposals/*/*.sol src/test/proposals/*/*.sol
 
 # Defaults to -v if no V=<{1,2,3,4,5} specified
 define compute_test_verbosity
